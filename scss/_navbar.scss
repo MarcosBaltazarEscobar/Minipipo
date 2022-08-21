@@ -1,0 +1,34 @@
+.navbar-light .navbar-nav{
+	.nav-link{
+		color: $navbarText;
+		color: map-get($colores, navbarText);
+			&:hover{
+				color: $navbarText;
+				color: map-get($colores, navbarText);
+			}
+	}
+
+	.nav-link.active{
+				color: $navbarText;
+				color: map-get($colores, navbarText);
+	   			background-color: #00000000;
+			    border-color: #dee2e6 #dee2e6 #fff;
+			    font-weight: bold;
+	}
+
+	.show>.nav-link{
+		color: $navbarText;
+		color: map-get($colores, navbarText);
+	}
+}
+
+.btn-outline-success{
+    @extend .boton;
+    background-color: rgb(235, 235, 235);
+    color: black ;
+    &:hover{
+        background-color:$colorPrimario;
+        color: black;
+        
+}
+}
